@@ -1,0 +1,32 @@
+//if the programme has class not pakage then {javac oddeven.java
+// java oddeven}   to run the code in terminal
+
+//if the code has pakage then {javac ifff.oddeven.java
+// java ifff.oddeven}
+
+
+1. cd.. >>command to go one directory outside
+
+
+2. cd first/ifff  >> command to go inside the ifff folder
+NOTE -- command me kabhi bhi file name nahi likhte like {cd first/ifff/heloo.java} 
+
+3. agar pakage include karne pe code run nahi ho raha hai to-- {pahle cd..} se ek directory bahar jao src me fir terminal me code 
+ko compile and run karo.
+
+
+
+    TERNARY OPERATOR           //if else ka short form
+    [ conditon? sach:jhoot ]
+
+    #bahar ka loop(i)--rows hota hai; andar ka loop number of elements in each row.
+    #pattern
+    1. rectangle:- bahar loop (1 se m tk) and andar loop(1 se n tk).
+    2. square:- both (1 se m tk).
+    3.triangle:-bahar loop(1 se m tk) and andar loop (1 se i tk).
+    4.ulta triangle:- bahar loop(1 se n tk) and andar ola loop(1 se n-i+1 tk)
+    4.verticle flipped triangle:-if((i+j)>n) pront("*);
+
+    NOTE:- vertically flipped triangle jab bhi aaye usse do triangle me break kar ke {loop ke andar do loop lagao}.
+    NOTE:- 1. agar do pattern ko horizontally print karna hai to, ek loop ke andar do loop rakho.
+           2.agar do loop ko ek ke niche dusre ko rakhna hai to do loop ko seperatly lagao.
