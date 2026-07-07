@@ -1,9 +1,107 @@
-//if the programme has class not pakage then {javac oddeven.java
-// java oddeven}   to run the code in terminal
+1.if the programme has class not pakage then:
 
-//if the code has pakage then {javac ifff.oddeven.java
-// java ifff.oddeven}
+javac takingInput.java  {compile the code}
+java takingInput {run the code}
 
+NOTE:- run the command from the src.
+
+
+2.if the code has pakage then:
+
+javac basic\takingInput.java
+java basic.takingInput
+
+run from the PS D:\project\DSA.JAVA\src> .
+
+
+3.FROM WHERE THESE COMMAND SHOULD RUN:---
+A. no package::
+
+Project
+│
+└── Hello.java
+------------------------------
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
+
+
+RUN FROM ROOT :- Project
+
+[ javac Hello.java ,
+java Hello ]
+
+
+B. Case 2: Package directly inside the project root:
+Project
+│
+└── basic
+     └── Hello.java
+
+-------------------
+
+package basic;
+
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
+
+RUN FROM :Project.
+javac basic\Hello.java
+java basic.Hello
+
+
+C. Case 3: Package inside src (most common):
+
+Project
+│
+└── src
+     └── basic
+          └── Hello.java
+
+---------------------
+package basic;
+
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
+
+RUN FROM : Project\src.
+
+javac basic\Hello.java
+java basic.Hello
+
+
+D.Case 4: Nested packages.
+Project
+│
+└── src
+     └── com
+          └── company
+               └── app
+                    └── Main.java
+
+--------------------------------
+package com.company.app;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
+
+RUN FROM : Project\src.
+
+javac com\company\app\Main.java
+java com.company.app.Main
+
+---------------------------------------------------------------------------------------------
 
 1. cd.. >>command to go one directory outside
 
@@ -28,5 +126,129 @@ ko compile and run karo.
     4.verticle flipped triangle:-if((i+j)>n) pront("*);
 
     NOTE:- vertically flipped triangle jab bhi aaye usse do triangle me break kar ke {loop ke andar do loop lagao}.
-    NOTE:- 1. agar do pattern ko horizontally print karna hai to, ek loop ke andar do loop rakho.
+   NOTE:- 1. agar do pattern ko horizontally print karna hai to, ek loop ke andar do loop rakho.
            2.agar do loop ko ek ke niche dusre ko rakhna hai to do loop ko seperatly lagao.
+
+
+
+--------------------------------------------------------------------------------------------------
+
+FINAL GAME OF PACKAGE ::::
+
+
+1. NO package:-
+
+JavaProject
+│
+├── Main.java
+├── Student.java
+└── Car.java
+
+every file is directly inside the root folder so no package , default package hota hai.
+
+
+2. JavaProject
+│
+└── basic
+      │
+      ├── Main.java
+      ├── Student.java
+      └── Car.java
+
+
+
+one package here package basic;
+
+
+3.  
+ JavaProject
+│
+├── basic { package basic;}
+│      │
+│      ├── Variables.java
+│      └── Loops.java
+│
+├── array     { package array;}
+│      │
+│      ├── Array1.java
+│      └── Array2.java
+│
+└── linkedlist {package linkedlist;}
+       │
+       └── Node.java
+
+      
+
+
+4.
+Project
+│
+└── com
+      │
+      └── company
+              │
+              └── app
+                      │
+                      ├── Main.java
+                      └── Student.java
+
+
+ package com.company.app;
+
+
+
+5. 
+     DSA.JAVA
+
+      │
+      └── src
+             │
+             └── basic
+                     │
+                     ├── variables.java
+                     ├── takingInput.java
+                     └── sphereVolume.java       
+
+
+
+package basic; src is not included in the package..
+
+
+5.
+Project
+│
+└── src
+      │
+      ├── basic          ← Package
+      │      │
+      │      ├── Main.java      ← Class
+      │      ├── Student.java   ← Class
+      │      └── Car.java       ← Class
+      │
+      └── array          ← Package
+             │
+             ├── Array1.java    ← Class
+             └── Array2.java    ← Class
+
+
+
+
+
+
+JAVA COMMAND:-----
+java --version
+javac --version
+where.exe java
+where.exe javac
+
+
+
+
+
+
+
+
+IMPORTANT COONCEPT:---
+1.java me multiply se pahle typecaset hota hai , 
+so ager kabhi typecast se pahle multiply krna hai to use bracket.
+e.g:- int k= (int) (n*10);
