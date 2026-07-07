@@ -1,3 +1,4 @@
+package ifff;
 import java.util.Scanner;
 
 public class absolute {
@@ -5,6 +6,7 @@ public class absolute {
        Scanner mm= new Scanner(System.in);
        System.out.println("enter the number");
     int n= mm.nextInt();
+    mm.close();
     if(n>=0){
         System.out.println("the absolute value of number is "+n);
     }

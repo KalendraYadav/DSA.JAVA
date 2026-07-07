@@ -1,4 +1,4 @@
-
+package ifff;
 import java.util.Scanner;
 
 public class divide5 {

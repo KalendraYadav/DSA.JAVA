@@ -1,3 +1,4 @@
+package ifff;
 import java.util.Scanner;
 
 public class absolute2 {
