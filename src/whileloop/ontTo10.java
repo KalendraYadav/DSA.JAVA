@@ -1,5 +1,5 @@
 
-
+package whileloop;
 public class ontTo10 {
     public static void main(String[] args) {
         int i=1;

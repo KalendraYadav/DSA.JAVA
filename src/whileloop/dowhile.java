@@ -1,4 +1,4 @@
-
+package whileloop;
 
 public class dowhile {
     public static void main(String[] args) {
