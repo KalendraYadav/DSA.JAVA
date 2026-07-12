@@ -252,3 +252,13 @@ IMPORTANT COONCEPT:---
 1.java me multiply se pahle typecaset hota hai , 
 so ager kabhi typecast se pahle multiply krna hai to use bracket.
 e.g:- int k= (int) (n*10);
+
+
+-------------------------------------------------------------------------------------
+* if the vs code is unable to auto detect the src forlder than inside the .vscode add these lines in the settings.json.
+which tells the vs code that this is src folder.
+
+{
+"java.debug.settings.onBuildFailureProceed": true,
+"java.project.sourcePaths": ["src", "hello"]
+}
