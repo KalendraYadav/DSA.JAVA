@@ -1,17 +1,17 @@
-
-
+package whileloop;
 import java.util.Scanner;
 
 public class countDigits {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        sc.close();
         int p=0;
         // for(int i=1;n!=0;i++){
         //     n=n/10;
         //     p++;
         // }
-         if(n==0) n=8;  //0 bhii ek digit ka number hai isliye is line ko add kiya
+         if(n==0) n=8;  //0 bhii ek digit ka number hai isliye is line ko add kiya ans n= kuch bhi store kar do bas ek digit ka honaa chahiye other than 0.
         int i=1;
         while(n!=0){
             n=n/10;
