@@ -10,6 +10,7 @@ public class multiplereturn {
     public static void main(String[]args){
         System.out.println(kal(5));
         System.out.println(kal(-4));
+        System.out.println(1+kal(17));
     }
     
 }
