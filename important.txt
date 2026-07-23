@@ -262,3 +262,9 @@ which tells the vs code that this is src folder.
 "java.debug.settings.onBuildFailureProceed": true,
 "java.project.sourcePaths": ["src", "hello"]
 }
+
+
+AGAR PACKAGE HAI TO COMMAND ME PACKAGE AAAYEGA.
+
+javac packagename\neww.java
+java packagename.neww

@@ -1,4 +1,32 @@
+// {
+//     "java.debug.settings.onBuildFailureProceed": true,
+//     "java.project.sourcePaths": [
+//         "src",                     //if you want to treat all folders as src, then you dont need to add package name in code.
+//         "createdMethod",
+//         "hello",
+//         "methodsBuiltin"
+//     ]
+// }
+
+
+    //  ------------------------------------OR-------------------------------------------------          
+
+
 {
-"java.debug.settings.onBuildFailureProceed": true,
-"java.project.sourcePaths": ["src", "hello"]
+    "java.project.sourcePaths": [
+        ".",    // Treat the root folder as a source folder and also src  as source folder
+        "src"
+    ],
+
+// Tell Code Runner to use the Java Extension
+// This is the cleanest solution because the Java Extension 
+// understands packages, source paths, Maven, Gradle, etc.
+
+
+
+    "code-runner.runInTerminal": true,           
+    "code-runner.executorMap": {
+        "java": "echo Use 'Run Java' instead of Code Runner for Java projects."
+    }
 }
+
