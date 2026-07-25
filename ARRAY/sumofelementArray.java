@@ -21,6 +21,12 @@ public class sumofelementArray {
         }
         System.out.println("the sum of the element of the array is "+ sum);
 
+
+        int pro=1;
+        for(int i=0;i<prr.length;i++){
+            pro*=prr[i];
+        }
+        System.out.println(pro);
     }
     
 }
