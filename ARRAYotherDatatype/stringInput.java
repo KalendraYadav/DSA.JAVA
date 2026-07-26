@@ -12,6 +12,7 @@ public class stringInput {
         for(int i=0;i<k.length;i++){
             System.out.println(k[i]);
         }
+        ka.close();
     }
     
 }
