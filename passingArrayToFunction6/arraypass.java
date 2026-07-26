@@ -1,4 +1,4 @@
-package passingArrayToFunction;
+package passingArrayToFunction6;
 
 public class arraypass {
     public static void main(String[]args){

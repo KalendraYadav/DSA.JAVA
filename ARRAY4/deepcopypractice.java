@@ -1,4 +1,4 @@
-package ARRAY;
+package 4ARRAY;
 public class deepcopypractice{
     public static void main(String[]args){
         int [] j={4,5,4,7,8,9,6,2,3,0};

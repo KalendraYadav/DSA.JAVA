@@ -1,4 +1,4 @@
-package ARRAY;
+package ARRAY4;
 
 public class arr3 {
     

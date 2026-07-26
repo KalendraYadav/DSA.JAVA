@@ -1,4 +1,4 @@
-package ARRAYotherDatatype;
+package ARRAYotherDatatype5;
 
 public class stringArray {
     public static void main(String[]args){

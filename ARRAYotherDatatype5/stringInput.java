@@ -1,4 +1,4 @@
-package ARRAYotherDatatype;
+package ARRAYotherDatatype5;
 import java.util.Scanner;
 public class stringInput {
     public static void main(String[]args){
