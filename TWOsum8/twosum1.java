@@ -3,7 +3,7 @@ package TWOsum8;
 public class twosum1 {
     public static void main(String[] args){
         int[] hrr={4,58,2,1,10,56,-9,-8,-45,1,2};
-        int target=8;
+        int target=6;
         boolean flag = false;
         for(int i=0;i<hrr.length;i++){
             
