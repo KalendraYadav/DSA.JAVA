@@ -2,7 +2,7 @@ package DSApractice;
 public class secondmaxBest4 {
 
     public static void main(String[] args) {
-        int [] arr={7,-8,4,-2,3,6,-9,45,23,23,22,45,7};
+        int [] arr={50,50,49,7,-8,4,-2,3,6,-9,45,23,23,22,45,7};
         System.out.println(best(arr)); 
     }
 
