@@ -1,0 +1,20 @@
+package REVERSEarray9;
+public class twopointerTwovariable1 {
+    public static void main(String[] args) {
+        
+        int []arr ={5,1,2,4,5,9,3,4};
+        
+        for(int i=0;i<arr.length/2;i++){  //if we will go till n then again we will get the same array.
+            
+            int temp=arr[i];
+            arr[i]=arr[arr.length-1-i];
+            arr[arr.length-1-i]=temp;
+        }
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
+        
+    }
+    
+    
+}
