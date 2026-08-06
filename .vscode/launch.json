@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "swaponlySome6",
+            "request": "launch",
+            "mainClass": "REVERSEarray9.swaponlySome6",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
             "name": "reverseByUlta5",
             "request": "launch",
             "mainClass": "REVERSEarray9.reverseByUlta5",
