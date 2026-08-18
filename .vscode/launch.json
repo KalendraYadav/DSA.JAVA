@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rotate",
+            "request": "launch",
+            "mainClass": "REVERSEarray9.rotate",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
+            "name": "rotate7",
+            "request": "launch",
+            "mainClass": "REVERSEarray9.rotate7",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
+            "name": "rotateArray6",
+            "request": "launch",
+            "mainClass": "DSApractice.rotateArray6",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
             "name": "swaponlySome6",
             "request": "launch",
             "mainClass": "REVERSEarray9.swaponlySome6",
