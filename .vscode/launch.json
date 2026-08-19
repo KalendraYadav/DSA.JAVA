@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sortoddEvenByindex4",
+            "request": "launch",
+            "mainClass": "DSApractice.SHORTING.sortoddEvenByindex4",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
             "name": "sortEventoStart3",
             "request": "launch",
             "mainClass": "DSApractice.SHORTING.sortEventoStart3",
