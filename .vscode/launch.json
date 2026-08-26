@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "twosumm4",
+            "request": "launch",
+            "mainClass": "DSApractice.twosumm4",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
             "name": "twosumm3",
             "request": "launch",
             "mainClass": "DSApractice.twosumm3",
