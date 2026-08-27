@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeDuplicate2",
+            "request": "launch",
+            "mainClass": "DSApractice.removeDuplicate2",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
+            "name": "removeDuplicate1",
+            "request": "launch",
+            "mainClass": "DSApractice.removeDuplicate1",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
             "name": "goodarray3",
             "request": "launch",
             "mainClass": "DSApractice.goodarray3",
