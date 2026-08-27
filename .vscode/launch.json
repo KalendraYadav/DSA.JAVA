@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rotatefind7",
+            "request": "launch",
+            "mainClass": "DSApractice.rotatefind7",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
+            "name": "roatatefind6",
+            "request": "launch",
+            "mainClass": "DSApractice.roatatefind6",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
+            "name": "rotatefind5",
+            "request": "launch",
+            "mainClass": "DSApractice.rotatefind5",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
             "name": "twosumm4",
             "request": "launch",
             "mainClass": "DSApractice.twosumm4",

@@ -8,7 +8,7 @@ public class twosumm4 {
         int left=0;
         int right=n-1;
         int ans[]=new int[2];
-        while(left<=right){
+        while(left<right){
             if(arr[left]+arr[right]==target){
                 ans[0]=left;
                 ans[1]=right;
