@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mergethearray1",
+            "request": "launch",
+            "mainClass": "DSApractice.mergethearray1",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
             "name": "rotatefind7",
             "request": "launch",
             "mainClass": "DSApractice.rotatefind7",
