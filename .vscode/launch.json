@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "goodarray3",
+            "request": "launch",
+            "mainClass": "DSApractice.goodarray3",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
+            "name": "goodarray2",
+            "request": "launch",
+            "mainClass": "DSApractice.goodarray2",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
+            "name": "gooodarray1",
+            "request": "launch",
+            "mainClass": "DSApractice.gooodarray1",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
             "name": "mergethearray1",
             "request": "launch",
             "mainClass": "DSApractice.mergethearray1",
