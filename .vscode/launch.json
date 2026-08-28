@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "squareofsortedTWOpointer2",
+            "request": "launch",
+            "mainClass": "DSApractice.squareofsortedTWOpointer2",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
+            "name": "squaareofSorted1",
+            "request": "launch",
+            "mainClass": "DSApractice.squaareofSorted1",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
             "name": "removeDuplicate2",
             "request": "launch",
             "mainClass": "DSApractice.removeDuplicate2",
