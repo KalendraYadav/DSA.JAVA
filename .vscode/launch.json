@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rreturnIntersection2",
+            "request": "launch",
+            "mainClass": "DSApractice.rreturnIntersection2",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
+            "name": "returnIntersection1",
+            "request": "launch",
+            "mainClass": "DSApractice.returnIntersection1",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
+            "name": "limitOccurance1",
+            "request": "launch",
+            "mainClass": "DSApractice.limitOccurance1",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
             "name": "squareofsortedTWOpointer2",
             "request": "launch",
             "mainClass": "DSApractice.squareofsortedTWOpointer2",
