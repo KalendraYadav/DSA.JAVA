@@ -1,5 +1,5 @@
 package DSApractice;
-//it will fail if the num2 will become large 
+
 
 public class limitOccurance1 {
     public static void main(String[] args) {

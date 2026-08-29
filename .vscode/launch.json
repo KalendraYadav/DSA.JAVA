@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "subsequence2",
+            "request": "launch",
+            "mainClass": "DSApractice.subsequence2",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
+            "name": "subsequence1",
+            "request": "launch",
+            "mainClass": "DSApractice.subsequence1",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
             "name": "rreturnIntersection2",
             "request": "launch",
             "mainClass": "DSApractice.rreturnIntersection2",

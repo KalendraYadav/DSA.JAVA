@@ -1,0 +1,31 @@
+package DSApractice;
+
+public class subsequence2 {
+    public static void main(String[] args) {
+        String s="acb";
+        String t="aghbfc";
+        char[] arr1=s.toCharArray();
+        char [] arr2=t.toCharArray();
+
+        int n=arr1.length;
+        int m=arr2.length;
+
+        int p1=0;
+        int p2=0;
+        int count=0;
+        while(p1<n&&p2<m){
+            if(arr1[p1]==arr2[p2]){
+                count++;
+                p1++;
+                p2++;
+            }
+            else 
+                p2++;
+        }
+
+        if(p1==n)
+            System.out.println("subsequence");
+        else System.out.println("not subsequence");
+    }
+    
+}
