@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pairSumLessthenTArget1",
+            "request": "launch",
+            "mainClass": "DSApractice.pairSumLessthenTArget1",
+            "projectName": "DSA.JAVA_a306d56"
+        },
+        {
+            "type": "java",
             "name": "subsequence2",
             "request": "launch",
             "mainClass": "DSApractice.subsequence2",
